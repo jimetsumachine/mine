@@ -18,7 +18,7 @@ public class stepDefinition {
 	
 	@Given("^I navigate to Google home page$")
 	public void i_navigate_to_google_home_page() throws Throwable {
-	System.setProperty("webdriver.chrome.driver", "C:/Users/theodore.strong/Desktop/chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "/usr/local/share/chromedriver");
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.google.com");
